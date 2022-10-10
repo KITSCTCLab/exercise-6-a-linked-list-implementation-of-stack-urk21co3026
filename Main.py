@@ -11,8 +11,8 @@ class Stack:
   def push(self, data) -> None:
     # Write your code here
      new_node = Node(data)
-      new_node.next = self.head
-      self.head = new_node 
+     new_node.next = self.head
+     self.head = new_node 
 
   def pop(self) -> None:
     # Write your code here
@@ -32,9 +32,9 @@ class Stack:
       while(temp.next != None): 
         print(temp.data, end = "=>") 
         temp = temp.next 
-        else: 
+    else: 
           print(temp.data,"None", sep="=>") 
-          else: 
+    else: 
             print("None") 
 
 
